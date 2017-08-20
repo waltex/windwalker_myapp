@@ -12,7 +12,14 @@ use Windwalker\Core\Controller\AbstractController;
 class GetController extends AbstractController {
 
     protected function doExecute() {
-        return 'Hello World';
+        $view = $this->getView();
+
+        $view['name'] = 'Sakura';
+        return $view->render();  //default
+        // Another quick way
+        //return $this->renderView('Sakura', 'default', 'php', ['name' => 'Sakura']);
+
+        //return $view->setLayout('photo')->render();
     }
 
 }

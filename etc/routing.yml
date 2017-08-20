@@ -1,3 +1,8 @@
 main:
     pattern: /
     package: main
+
+# Routing of package: phoenix
+phoenix:
+    pattern: /phoenix
+    package: phoenix

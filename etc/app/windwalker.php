@@ -25,8 +25,9 @@ return [
 
 		'flower' => \Asuka\Flower\FlowerPackage::class,
 		'fsimple' => \Asuka\Fsimple\FsimplePackage::class,
-		'fempty' => \Asuka\Fempty\FemptyPackage::class
-	],
+		'fempty' => \Asuka\Fempty\FemptyPackage::class,
+
+    ],
 
 	/*
 	 * Provider Registration
